@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+.tittle {
+    text-align: center;
+}
+
+.photo-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.photo-info .title {
+    text-align: left;
+    color: black;
+}
+
+.photo-info .date {
+    text-align: right;
+    color: black;
+}
+
+img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+p {
+    width: 600px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border: 1px solid grey;
+    box-shadow: 10px grey;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin:auto;
+    margin-bottom: 30px;
+}
